@@ -1,103 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Página Personal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Actividad en clase</title>
 </head>
 <body>
 
-
-<nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#sobre-mi">Sobre mí</a>
-    <a href="#contacto">Contacto</a>
-</nav>
-
+<nav id="nav-root"></nav>
 <hr />
-
-
-<section id="inicio" style="text-align: center;">
-    <h1>Hola, soy Oscar</h1>
-    <p>Estudiante de Ingeniería de Sistemas.</p>
-
-
-    <iframe
-            width="400"
-            height="220"
-            src="https://www.youtube.com/embed/2fDzCWNS3ig"
-            title="Out of Time - The Weeknd"
-            allowfullscreen>
-    </iframe>
-</section>
-
+<div id="app"></div>
 <hr />
+<footer id="footer-root"></footer>
 
-
-<section id="sobre-mi" style="text-align: center;">
-    <h2>Sobre mí</h2>
-    <p>Aquí va una pequeña descripción personal.</p>
-
-
-    <div style="margin: 20px 0;">
-        <img
-                src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg"
-                alt="Cristiano Ronaldo"
-                width="320"
-                style="border-radius: 10px; border: 2px solid #ccc;"
-        />
-        <p style="margin-top: 8px; font-size: 14px; color: gray;">Cristiano Ronaldo</p>
-    </div>
-
-
-    <div style="display: inline-block; text-align: left;">
-        <table border="1" cellpadding="8" cellspacing="0">
-            <thead>
-            <tr>
-                <th>Campo</th>
-                <th>Detalle</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr><td>Carrera</td><td>Ingeniería de Sistemas</td></tr>
-            <tr><td>Universidad</td><td>Colombia</td></tr>
-            <tr><td>Intereses</td><td>Data, Web, Investigación</td></tr>
-            </tbody>
-        </table>
-    </div>
-
-</section>
-
-<hr />
-
-
-<section id="contacto" style="text-align: center;">
-    <h2>Contacto</h2>
-
-
-    <div style="display: inline-block; text-align: left;">
-        <form>
-            <label for="nombre">Nombre:</label><br />
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required /><br /><br />
-
-            <label for="email">Correo:</label><br />
-            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required /><br /><br />
-
-            <label for="mensaje">Mensaje:</label><br />
-            <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="Escribe aquí..." required></textarea><br /><br />
-
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-</section>
-
-<hr />
-
-
-<footer style="text-align: center;">
-    <p>&copy; 2026 Oscar</p>
-</footer>
-
+<script src="main.js"></script>
 </body>
 </html>
